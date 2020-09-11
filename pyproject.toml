@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+author = "Matt Covalt"
+author-email = "mcovalt@mailbox.org"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.md"
+home-page = "https://github.com/mcovalt/dja"
+module = "dja"
+
+[tool.black]
+line-length = 120
+target-version = ["py38"]
